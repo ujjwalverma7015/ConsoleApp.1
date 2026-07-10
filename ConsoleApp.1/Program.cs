@@ -409,4 +409,3 @@ else
 //{
 //    Console.WriteLine("Not a single-digit number");
 //}
-Console.WriteLine("completed");
