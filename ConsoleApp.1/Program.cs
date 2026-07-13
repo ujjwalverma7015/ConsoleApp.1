@@ -413,6 +413,7 @@ else
     Console.WriteLine("Not a single-digit number");
 }*/
 
+//swipe 
 
 /*int a = 20;
 int  b = 10;
@@ -421,3 +422,348 @@ a = b;
 b= x;
 Console.WriteLine(a);
 Console.WriteLine(b);*/
+
+//Nested If Assignments
+
+//Write a C# program to check if a person is eligible to vote.
+//A person is eligible to vote if their age is 18 or above and they have a valid voter ID (hasID = true). 
+/*
+Console.WriteLine("enter your age:");
+int age = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("enter your voter ID status (true/false):");
+bool hasID = Convert.ToBoolean(Console.ReadLine());
+
+if (age >= 18)
+{
+    if (hasID)
+    {
+        Console.WriteLine("Eligible to vote");
+    }
+    else
+    {
+        Console.WriteLine("Not eligible to vote");
+    }
+}
+else
+{
+    Console.WriteLine("Not eligible to vote");
+}*/
+
+//Write a C# program to verify login credentials.
+//The user is granted access only if the username is "admin" and the password is "1234". 
+/*
+Console.WriteLine("enter your username:");
+string username = Console.ReadLine();
+Console.WriteLine("enter your password");
+string password = Console.ReadLine();
+if (username == "admin")
+{
+    if (password == "1234")
+    {
+        Console.WriteLine("Access granted");
+    }
+    else
+    {
+        Console.WriteLine("Access denied");
+    }
+}
+else
+{
+    Console.WriteLine("Access denied");
+}*/
+
+//3.Write a C# program to check if a number is both positive and even. 
+/*Console.WriteLine("enter a number:");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number > 0 && number % 2 == 0)
+{
+    Console.WriteLine("The number is positive and even.");
+}
+else
+{
+    Console.WriteLine("The number is not positive and even.");
+}*/
+
+//4.Write a C# program to check if a student has passed and scored above 90 marks. 
+/*Console.WriteLine("Enter your marks:");
+int marks = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter your pass status (true/false):");
+bool hasPassed = Convert.ToBoolean(Console.ReadLine());
+if (hasPassed)
+{
+    if (marks > 90)
+    {
+        Console.WriteLine("The student has passed and scored above 90 marks.");
+    }
+    else
+    {
+        Console.WriteLine("The student has passed but scored 90 marks or below.");
+    }
+
+}
+else
+{
+    Console.WriteLine("The student has not passed.");
+}*/
+
+//5.Write a C# program to check if a person is eligible for a government job.
+//The person must be a citizen (isCitizen = true) and at least 18 years old. 
+/*Console.WriteLine("Enter your age:");
+int age = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter your citizenship status (true/false):");
+bool isCitizen = Convert.ToBoolean(Console.ReadLine());
+if (isCitizen == true)
+{
+    if (age >= 18)
+    {
+        Console.WriteLine("The person is eligible for a government job.");
+    }
+    else
+    {
+        Console.WriteLine("The person is not eligible for a government job due to age.");
+    }
+
+}
+else
+{
+    Console.WriteLine("The person is not eligible for a government job due to citizenship status.");
+}*/
+
+//6.Write a C# program to check if a number is divisible by both 3 and 5. 
+/*Console.WriteLine("enter a number");
+int number = Convert.ToInt32(Console.ReadLine());
+if (number % 3 == 0)
+{
+    if (number % 5 == 0)
+    {
+        Console.WriteLine("The number is divisible by both 3 and 5.");
+    }
+    else
+    {
+        Console.WriteLine("The number is divisible by 3 but not by 5.");
+    }
+}
+else
+{
+    Console.WriteLine("The number is not divisible by 3.");
+}*/
+
+//7.Write a C# program to check if a user is an admin and has permission to delete records. 
+/*Console.WriteLine("Enter your role (admin/user):");
+string role = Console.ReadLine();
+Console.WriteLine("Do you have permission to delete records? (true/false):");
+bool hasPermission = Convert.ToBoolean(Console.ReadLine());
+
+if (role == "admin")
+{
+    if (hasPermission)
+    {
+        Console.WriteLine("The user is an admin and has permission to delete records.");
+    }
+    else
+    {
+        Console.WriteLine("The user is an admin but does not have permission to delete records.");
+    }
+}
+else
+{
+    Console.WriteLine("The user is not an admin.");
+}*/
+
+//8.Write a C# program to check if a user is registered and has a paid subscription. Access is granted only if both conditions are true. isRegistered = true, hasPaid = true
+/*Console.WriteLine("Are you registered? (true/false):");
+bool isRegistered = Convert.ToBoolean(Console.ReadLine());
+Console.WriteLine("Do you have a paid subscription? (true/false):");
+bool hasPaid = Convert.ToBoolean(Console.ReadLine());
+if (isRegistered == true)
+{
+    if (hasPaid == true)
+    {
+        Console.WriteLine(" Access is granted");
+    }
+    else
+    {
+        Console.WriteLine("You not paid for subscription");
+    }
+}
+else
+{
+    Console.WriteLine("You register is not sexes");
+}*/
+
+//9.Write a C# program to find the largest number among four given numbers. 
+
+
+/*Console.WriteLine("enter number a");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("enter number b");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("enter number c");
+int c = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("enter number d");
+int d = Convert.ToInt32(Console.ReadLine());
+if (a > b)
+{
+    if (a > c)
+    {
+        if (a > d)
+        {
+            Console.WriteLine("a is bog");
+        }
+        else
+        {
+            Console.WriteLine("d is big");
+        }
+    }
+    else
+    {
+        if (c > d)
+        {
+            Console.WriteLine("c is big ");
+        }
+        else
+        {
+            Console.WriteLine("d is big ");
+        }
+    }
+}
+else
+{
+    if (b>c)
+    {
+          if (b>d)
+        {
+            Console.WriteLine("b is big ");
+        }
+        else
+        {
+            Console.WriteLine("d is big ");
+        }
+    }
+    else
+    {
+        if (c > d)
+        {
+            Console.WriteLine(" c is big");
+        }
+        else
+        {
+            Console.WriteLine("d is big ");
+        }
+    }
+}*/
+
+
+//.10.Write a C# program to check if a year is a leap year and also divisible by 400. 
+/*Console.WriteLine("enter a year");
+int year = Convert.ToInt32(Console.ReadLine());
+if (year % 4 == 0)
+{
+       if (year % 100 == 0)
+       {
+           if (year % 400 == 0)
+           {
+               Console.WriteLine("leap year and divisible by 400");
+           }
+           else
+           {
+               Console.WriteLine("not leap year and not divisible by 400");
+           }
+       }
+       else
+       {
+           Console.WriteLine("leap year and not divisible by 400");
+       }
+}
+else
+{
+    Console.WriteLine("not leap year and not divisible by 400");
+}*/
+
+//11.A person can apply if they are 18 or older and have passed the learner’s test. 
+/*Console.WriteLine("enter your age");
+int age = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("have you passed the learner's test (true/false)");
+bool hasPassedTest = Convert.ToBoolean(Console.ReadLine());
+
+if (age >= 18)
+{
+    if (hasPassedTest == true)
+    {
+        Console.WriteLine("You can apply.");
+    }
+    else
+    {
+        Console.WriteLine("You cannot apply.");
+    }
+}
+else
+{
+    Console.WriteLine("You cannot apply.");
+}*/
+
+//.12.Write a program that checks if all three sides of a triangle are equal.
+/*Console.WriteLine("Enter the first side of the triangle:");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter the second side of the triangle:");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter the third side of the triangle:");
+int c = Convert.ToInt32(Console.ReadLine());
+if (a == b)
+{
+    if (a == c)
+    {
+        Console.WriteLine("All three sides are equal.");
+    }
+    else
+    {
+        Console.WriteLine("Not all three sides are equal.");
+    }
+}
+else
+{
+    Console.WriteLine("Not all three sides are equal.");
+}*/
+
+//.13.A person qualifies if their percentage is 85 or more and they come from a rural area. 
+/*Console.WriteLine("Enter your percentage:");
+int percentage = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Are you from a rural area? (true/false):");
+bool isFromRuralArea = Convert.ToBoolean(Console.ReadLine());
+if (percentage >= 85)
+{
+    if (isFromRuralArea == true)
+    {
+        Console.WriteLine("You qualify.");
+    }
+    else
+    {
+        Console.WriteLine("You do not qualify.");
+    }
+
+}
+else
+{
+    Console.WriteLine("You do not qualify.");
+}*/
+
+//14.Write a program that checks if a number is three digits and even. 
+/*Console.WriteLine("Enter a number:");
+int number = Convert.ToInt32(Console.ReadLine());
+if (number >= 100 )
+{
+    if (number % 2 == 0)
+    {
+        Console.WriteLine("The number is three digits and even.");
+    }
+    else
+    {
+        Console.WriteLine("The number is three digits but not even.");
+    }
+}
+else
+{
+    Console.WriteLine("The number is not three digits.");
+}*/
+
