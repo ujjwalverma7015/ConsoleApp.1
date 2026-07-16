@@ -767,3 +767,181 @@ else
     Console.WriteLine("The number is not three digits.");
 }*/
 
+
+
+
+/*for (int i = 1; i <= 5; i++)
+{
+    for (int j = 1; j <= i; j++)
+    {
+        Console.Write(j);
+    }
+    Console.WriteLine();
+}*/
+
+/*for (int i = 1; i <= 5; i++)
+{
+    for (int j = i; j >= 1; j--)
+    {
+        Console.Write(j);
+    }
+    Console.WriteLine();
+}*/
+
+/*for (int i = 1; i <= 5; i++)
+{
+    for (int j = 1; j <= i; j++)
+    {
+        Console.Write(j);
+    }
+    Console.WriteLine();
+}*/
+
+/*for (int i = 1; i <= 5; i++)
+{
+    for (int j = 5; j >= 1; j--)
+    {
+        Console.Write(j);
+    }
+    Console.WriteLine();
+}*/
+
+/*for (int i = 1; i <= 4; i++)
+{
+    for (int j = i; j <= 3; j++)
+    {
+        Console.Write("*");
+    }
+    for (int k = i; k >= 1; k--)
+    {
+        Console.Write(k);
+    }
+    Console.WriteLine();
+}*/
+
+/*for (int i = 1; i <= 4; i++)
+{
+    for (int j = i; j <= 3; j++)
+    {
+        Console.Write("*");
+    }
+    for (int k = i; k >= 1; k--)
+    {
+        Console.Write(Convert.ToChar(64 + k));
+    }
+    Console.WriteLine();
+}*/
+
+
+/*int num = 1;
+for (int i = 1; i <= 4; i++)
+{
+    for (int j = i; j <= 4 - 1; j++)
+    {
+        Console.Write("*");
+    }
+    for (int k = 1; k <= i; k++)
+    {
+        Console.Write(num);
+        num++;
+    }
+    Console.WriteLine();
+}*/
+
+/*for (int i = 1; i <= 4; i++)
+{
+    for (int j = i; j <= 4 - 1; j++)
+    {
+        Console.Write(" ");
+    }
+    for (int k = 1; k <= i; k++)
+    {
+        Console.Write(k);
+    }
+    for (int l = i - 1; l >= 1; l--)
+    {
+        Console.Write(l);
+    }
+    Console.WriteLine();
+}*/
+
+/*for (int i = 1; i <= 4; i++)
+{
+    for (int j = 1; j <= i - 1; j++)
+    {
+        Console.Write(" ");
+    }
+    for (int k = 1; k <= 5 - i; k++)
+    {
+        Console.Write(k);
+    }
+    for (int k = 4 - i; k >= 1; k--)
+    {
+        Console.Write(k);
+    }
+    Console.WriteLine();
+}*/
+
+/*for (int i = 5; i >= 1; i--)
+{
+    for (int j = i; j >= 1; j--)
+    {
+        Console.Write(j);
+    }
+    Console.WriteLine();
+}*/
+
+/*int num = 1;
+for (int i = num; i <= 4; i++)
+{
+    for (int j = i; j <= 4; j++)
+    {
+        Console.Write(num);
+        num++;
+    }
+    Console.WriteLine();
+}*/
+
+
+for (int i = 1; i <= 4; i++)
+{
+    for (int j = 1; j <= i - 1; j++)
+    {
+        Console.Write(" ");
+    }
+    Console.Write("*");
+
+    for (int k = 1; k <= 5 - i; k++)
+    {
+        Console.Write(k);
+    }
+    for (int l = i; l <= 3; l++)
+    {
+        Console.Write(" ");
+    }
+
+    Console.WriteLine("*");
+}
+int num = 3;
+for (int i = 1; i <= num; i++)
+{
+    for (int j = i; j <= num; j++)
+    {
+        Console.Write(" ");
+    }
+    Console.Write("*");
+    for (int k = 1; k <= i; k++)
+    {
+        Console.Write(" ");
+    }
+    for (int l = 1; l <= i - 1; l++)
+    {
+        Console.Write(" ");
+    }
+
+    Console.WriteLine("*");
+}
+
+
+
+
